@@ -1,0 +1,113 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  height: calc(var(--vh, 1vh) * 93.4);
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+ 
+}
+.home article {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-basis: 700px;
+  margin: 0 20px;
+}
+
+.home h1,
+.home h2 {
+  overflow: hidden;
+}
+
+.home h1 span {
+  color: transparent;
+  font-weight: 700;
+  letter-spacing: 5px;
+  font-size: 5rem;
+  animation: text-animate 0.5s ease forwards;
+  animation-delay: 1s;
+  position: relative;
+}
+
+.home h2 span {
+  color: transparent;
+  font-size: 4rem;
+  animation: text-animate 0.5s ease forwards;
+  animation-delay: 2s;
+  position: relative;
+}
+
+.home p {
+  color: #fff;
+  color: transparent;
+  animation: text-animate 0.5s ease forwards;
+  animation-delay: 2s;
+  position: relative;
+  overflow: hidden;
+  font-size: 1.2rem;
+}
+
+.home span::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: orange;
+  animation: animate-1 1s cubic-bezier(0.77, 0, 0.18, 1) forwards;
+  transform: translateX(-101%);
+}
+
+.home span::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  animation: animate-2 1s cubic-bezier(0.77, 0, 0.18, 1) forwards;
+  transform: translateX(0);
+}
+/*h1 딜레이*/
+.home h1 span::before,
+.home h1 span::after {
+  animation-delay: 0.5s;
+}
+/*h2 딜레이*/
+.home h2 span::before,
+.home h2 span::after {
+  animation-delay: 1.5s;
+}
+
+/*애니메이션*/
+@keyframes animate-1 {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(101%);
+  }
+}
+@keyframes animate-2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(200%);
+  }
+}
+@keyframes text-animate {
+  100% {
+    color: #fff;
+  }
+}
