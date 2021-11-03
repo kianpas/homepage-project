@@ -14,7 +14,7 @@ const MainNavigation = (props) => {
             <Link href="/about">ABOUT</Link>
           </li>
           <li>
-            <Link href="">PROJECT</Link>
+            <Link href="/project">PROJECT</Link>
           </li>
           <li>
             <Link href="">ROAD MAP</Link>
