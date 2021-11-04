@@ -35,19 +35,19 @@ const ProjectData = [
   },
   {
     name: "React MeetUp",
-    img: "/images/reacthome.png",
-    link: "https://github.com/kianpas/homepage-project",
+    img: "/images/meetup.png",
+    link: "https://github.com/kianpas/meetup-project",
   },
 ];
 
 const Project = () => {
   return (
     <Wrapper>
-      <div className={classes.list}>
+      <section className={classes.list}>
         {ProjectData.map((data) => (
           <ProjectItem data={data} />
         ))}
-      </div>
+      </section>
     </Wrapper>
   );
 };

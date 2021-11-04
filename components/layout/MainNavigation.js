@@ -17,10 +17,13 @@ const MainNavigation = (props) => {
             <Link href="/project">PROJECT</Link>
           </li>
           <li>
-            <Link href="">ROAD MAP</Link>
+            <Link href="/roadmap">ROAD MAP</Link>
           </li>
           <li>
-            <Link href="">CONTACT</Link>
+            <Link href="/hobby">HOBBY</Link>
+          </li>
+          <li>
+            <Link href="/contact">CONTACT</Link>
           </li>
         </ul>
       </nav>
