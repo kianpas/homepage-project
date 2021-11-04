@@ -8,6 +8,10 @@ const AboutPage = () => {
       <Head>
         <title>React Contact</title>
         <meta name="description" content="contact" />
+        <link
+          href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+          rel="stylesheet"
+        ></link>
       </Head>
       <Contact />
     </Fragment>

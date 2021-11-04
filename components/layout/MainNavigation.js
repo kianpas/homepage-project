@@ -4,7 +4,7 @@ import classes from "./MainNavigation.module.css";
 const MainNavigation = (props) => {
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>홈페이지</div>
+      <div className={classes.logo}>Reindeer</div>
       <nav>
         <ul>
           <li>

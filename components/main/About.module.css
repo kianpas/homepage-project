@@ -1,78 +1,81 @@
 .introduce {
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80%;
-  }
-  
-  .pic {
-    /* height: 30%; */
-    margin: 15px;
-  }
-  
-  .pic img {
-    height: 250px;
-  }
-  
-  .introduce article {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    flex-basis: 700px;
-    margin: 0 20px;
-  }
-  
-  .github {
-    font-size: 1.2rem;
-    margin-bottom: 1%;
-  }
-  .about h1 {
-    font-size: 2.5rem;
-    margin: 10px;
-  }
-  
-  .about h2 {
-    margin: 10px;
-  }
-  
-  .introduce a {
-    text-decoration: none;
-  }
-  
-  .introduce .progress {
-    margin: 30px 0 0 10px;
-  }
-  
-  .introduce .icon-panel {
-    display: flex;
-    margin: 30px auto;
-  }
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+}
 
-  .introduce .icon-panel span {
-    margin: 0 10px;
-    font-size: 1.2rem;
-    text-align: center;
-  }
-  
-  .github span {
-    position: relative;
-  }
-  
-  .github span::after {
-    content: "";
-    background-color: #fff;
-    height: 1px;
-    width: 60px;
-    position: absolute;
-    top: 50%;
-    left: 110%;
-    transform: translateY(-50%);
-    transition: 0.5s ease;
-  }
+.pic {
+  /* height: 30%; */
+  margin: 15px;
+}
 
-  .github span:hover:after {
-    width: 100px;
-  }
+.pic img {
+  height: 250px;
+}
 
+.introduce article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-basis: 700px;
+  margin: 0 20px;
+}
+
+.github {
+  font-size: 1.2rem;
+  margin-bottom: 1%;
+}
+.about h1 {
+  font-size: 2.5rem;
+  margin: 10px;
+}
+
+.about h2 {
+  margin: 10px;
+}
+
+.introduce a {
+  text-decoration: none;
+}
+
+.introduce .progress {
+  margin: 30px 0 0 10px;
+}
+
+.introduce .icon-panel {
+  display: flex;
+  margin: 30px auto;
+}
+
+.introduce .icon-panel span {
+  margin: 0 10px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.github i {
+  margin-right: 5px;
+}
+
+.github span {
+  position: relative;
+}
+
+.github span::after {
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 60px;
+  position: absolute;
+  top: 50%;
+  left: 110%;
+  transform: translateY(-50%);
+  transition: 0.5s ease;
+}
+
+.github span:hover:after {
+  width: 100px;
+}

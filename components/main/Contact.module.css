@@ -1,6 +1,9 @@
 .contact-container {
-    font-size: 20px;
-    margin: 20px;
-    text-align: center;
-  }
-  
+  font-size: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.contact-container i {
+  margin-right: 5px;
+}

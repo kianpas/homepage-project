@@ -31,35 +31,42 @@ const About = () => {
           </div>
           <div className={classes["icon-panel"]}>
             <div>
+              <i class="bx bxs-coffee"></i>
               <span>JAVA</span>
             </div>
             <div>
+              <i class="bx bxs-data"></i>
               <span>ORACLE</span>
             </div>
             <div>
+              <i class="bx bxl-html5"></i>
               <span>HTML5</span>
             </div>
             <div>
+              <i class="bx bxl-css3"></i>
               <span>CSS3</span>
             </div>
             <div>
+              <i class="bx bxl-javascript"></i>
               <span>JS</span>
             </div>
             <div>
+              <i class="bx bxl-jquery"></i>
               <span>jQuery</span>
             </div>
             <div>
+              <i class="bx bxl-spring-boot"></i>
               <span>SPRING</span>
             </div>
           </div>
           <p className={classes.github}>
-            <i class="fab fa-github fa-1x"></i>
+            <i class="bx bxl-github"></i>
             <span>
               <a href="https://github.com/kianpas">GO TO GITHUB</a>
             </span>
           </p>
           <p className={classes.github}>
-            <i class="fas fa-portrait fa-1x"></i>
+            <i class="bx bxs-note"></i>
             <span>
               <a href="https://wood-bird-d9d.notion.site/2593947faddd44588573e2d92e6f0262">
                 GO TO NOTION
