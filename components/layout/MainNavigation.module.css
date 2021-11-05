@@ -50,49 +50,43 @@
 /*미디어쿼리*/
 @media only screen and (max-width: 1248px) {
   .header {
-    overflow: hidden;
+    z-index: 99;
+    position: absolute;
+    flex-direction: column;
+    height: 100vh;
+    width: 10vw;
+    left: -245px;
+    justify-content: space-evenly;
+    transition: 0.5s ease;
+  }
+
+  .logo {
+    font-size: 1rem;
   }
 
   .on {
     overflow: visible;
-    
   }
 
   .header nav {
-    z-index: 99;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: relative;
-    /* overflow: hidden; */
-    flex-direction: column;
-    width: auto;
-    height: auto;
-    /* min-height: 90vh; */
-    
   }
 
   .header i {
+    z-index: 99;
     position: absolute;
     display: block;
-    top: -5px;
-    left: 40px;
-    z-index: 2;
+    top: 10px;
+    left: 260px;
     font-size: 1.5rem;
   }
 
   .header nav ul {
-    /* flex-direction: column; */
-    align-items: flex-start;
-    /* height: 100px; */
-    /* min-height: 90vh; */
-    padding-left: 0;
-    position: absolute;
-    /* max-height: 220px; */
-    top: 100px;
-    /* right: 170px; */
-    margin-top: 0px;
-    transition: 0.2s ease-in-out;
-    z-index: 99;
-    display: block;
+    flex-direction: column;
+    width: 110px;
+  }
+
+  .toggle {
+    left: 0px !important;
   }
 
   .dimm {

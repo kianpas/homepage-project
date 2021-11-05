@@ -4,8 +4,10 @@ import classes from "./MainNavigation.module.css";
 
 const MainNavigation = (props) => {
   const [sideMenu, setSideMenu] = useState(false);
+
   const menuHandler = () => {
     setSideMenu(true);
+
     if (sideMenu) {
       setSideMenu(false);
     }
@@ -14,7 +16,7 @@ const MainNavigation = (props) => {
   return (
     <header
       className={
-        sideMenu ? `${classes.header} ${classes.on}` : `${classes.header}`
+        sideMenu ? `${classes.header} ${classes.toggle}` : `${classes.header}`
       }
     >
       <div className={classes.logo}>Reindeer</div>
