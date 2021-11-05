@@ -41,35 +41,55 @@
   background-color: #fff;
   color: #000;
 }
+
+.header i {
+  color: #fff;
+  display: none;
+  align-items: baseline;
+}
 /*미디어쿼리*/
 @media only screen and (max-width: 1248px) {
-  /* header img {
-    display: none;
-  } */
-  #menuIcon {
-    position: absolute;
-    display: block;
-    /* top: 2px; */
-    right: 10px;
-    z-index: 2;
+  .header {
+    overflow: hidden;
   }
+
+  .on {
+    overflow: visible;
+    
+  }
+
   .header nav {
     z-index: 99;
     background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    /* overflow: hidden; */
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    /* min-height: 90vh; */
+    
+  }
+
+  .header i {
+    position: absolute;
+    display: block;
+    top: -5px;
+    left: 40px;
+    z-index: 2;
+    font-size: 1.5rem;
   }
 
   .header nav ul {
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: flex-start;
-    height: calc(var(--vh, 1vh) * 100);
-    /* min-height: 100vh; */
+    /* height: 100px; */
+    /* min-height: 90vh; */
     padding-left: 0;
     position: absolute;
     /* max-height: 220px; */
-    top: 0;
-    right: -110px;
+    top: 100px;
+    /* right: 170px; */
     margin-top: 0px;
-    overflow: hidden;
     transition: 0.2s ease-in-out;
     z-index: 99;
     display: block;
