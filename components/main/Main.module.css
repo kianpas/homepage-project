@@ -1,10 +1,8 @@
-
 .home {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 80%;
- 
 }
 .home article {
   display: flex;
@@ -102,5 +100,15 @@
 @keyframes text-animate {
   100% {
     color: #fff;
+  }
+}
+
+@media only screen and (max-width: 1248px) {
+  .home h1 span {
+    font-size: 2.5rem;
+  }
+
+  .home h2 span {
+    font-size: 2rem;
   }
 }

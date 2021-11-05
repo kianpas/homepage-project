@@ -79,3 +79,34 @@
 .github span:hover:after {
   width: 100px;
 }
+
+@media only screen and (max-width: 1248px) {
+  .introduce {
+    flex-direction: column;
+  }
+
+  .pic {
+    height: auto;
+  }
+  .pic img {
+    height: 10rem;
+  }
+
+  .introduce {
+    flex-direction: column;
+  }
+  .icon-panel {
+    flex-wrap: wrap;
+    min-width: 50px;
+    justify-content: center;
+  }
+
+  .icon {
+    flex-direction: column;
+    display: flex;
+    margin: 10px 20px;
+  }
+  .icon i {
+    margin: 0 auto;
+  }
+}

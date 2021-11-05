@@ -2,7 +2,7 @@ import classes from "./Wrapper.module.css";
 import { useEffect } from "react";
 const Wrapper = (props) => {
   useEffect(() => {
-    let vh = window.innerHeight * 0.00934;
+    let vh = window.innerHeight * 0.0095;
     console.log(vh);
     document.documentElement.style.setProperty("--vh", `${vh}px`);
   }, []);
