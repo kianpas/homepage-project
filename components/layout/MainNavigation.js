@@ -41,8 +41,8 @@ const MainNavigation = (props) => {
             <Link href="/contact">CONTACT</Link>
           </li>
         </ul>
-        <i className="bx bx-menu" onClick={menuHandler}></i>
       </nav>
+      <i className="bx bx-menu" onClick={menuHandler}></i>
     </header>
   );
 };

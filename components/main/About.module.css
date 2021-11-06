@@ -89,7 +89,7 @@
     height: auto;
   }
   .pic img {
-    height: 10rem;
+    height: 8rem;
   }
 
   .introduce {
@@ -108,5 +108,9 @@
   }
   .icon i {
     margin: 0 auto;
+  }
+
+  .about p {
+    font-size: 15px;
   }
 }

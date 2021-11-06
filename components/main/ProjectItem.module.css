@@ -39,3 +39,15 @@
   background-color: #fff;
   color: #000;
 }
+
+@media only screen and (max-width: 1800px) {
+  .cover {
+    flex-basis: 40px;
+  }
+  .item img {
+    height: 5rem;
+    width: 10rem;
+    margin: 10px;
+  }
+  
+}
