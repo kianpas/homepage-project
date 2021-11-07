@@ -65,9 +65,6 @@
     font-size: 0.9rem;
   }
 
-  .header nav {
-  }
-
   .header i {
     z-index: 99;
     position: absolute;
@@ -87,20 +84,6 @@
     left: 0px !important;
   }
 
-  .dimm {
-    position: absolute;
-    top: 0;
-    height: 100vh;
-    width: 100%;
-    display: none;
-  }
-
-  .wrap {
-    display: block;
-    filter: blur(8px);
-    background-color: rgba(0, 0, 0, 0.7);
-  }
-
   .header nav ul li {
     margin: 20px 5px;
   }
@@ -113,5 +96,14 @@
   ul li.active a {
     background-color: rgba(0, 0, 0, 0);
     color: #fff;
+  }
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.75);
   }
 }

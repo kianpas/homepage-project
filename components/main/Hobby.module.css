@@ -12,14 +12,13 @@
   flex-direction: row;
 }
 
-
 .hobby section h1 {
   font-size: 2rem;
   text-align: center;
 }
 
 .hobby .cover-container {
-  width: 60%;
+  width: 80%;
   align-items: center;
   justify-content: center;
   height: 40%;
@@ -37,9 +36,33 @@
 
 .cover img {
   height: 60%;
-  width: 13rem;
+  width: 100%;
 }
 
 .hobby .hobbytxt {
   flex-direction: column;
+}
+@media only screen and (max-width: 1248px) {
+  .hobby {
+    
+    height: 100%;
+    
+  }
+
+  .hobby .cover-container {
+    flex-direction: column;
+  }
+
+  .hobby .cover-container article {
+    height: 30%;
+  }
+
+  .hobby .cover-container h2 {
+    margin: auto;
+    font-size: 1rem;
+  }
+  .cover img {
+    height: 80%;
+    width: 80%;
+  }
 }

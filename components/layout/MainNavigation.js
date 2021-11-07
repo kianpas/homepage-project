@@ -19,6 +19,7 @@ const MainNavigation = (props) => {
         sideMenu ? `${classes.header} ${classes.toggle}` : `${classes.header}`
       }
     >
+      {sideMenu && <div className={classes.backdrop}></div>}
       <div className={classes.logo}>Reindeer</div>
       <nav>
         <ul>
