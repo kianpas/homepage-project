@@ -31,42 +31,42 @@ const About = () => {
           </div>
           <div className={classes["icon-panel"]}>
             <div>
-              <i class="bx bxs-coffee"></i>
+              <i className="bx bxs-coffee"></i>
               <span>JAVA</span>
             </div>
             <div>
-              <i class="bx bxs-data"></i>
+              <i className="bx bxs-data"></i>
               <span>ORACLE</span>
             </div>
             <div>
-              <i class="bx bxl-html5"></i>
+              <i className="bx bxl-html5"></i>
               <span>HTML5</span>
             </div>
             <div>
-              <i class="bx bxl-css3"></i>
+              <i className="bx bxl-css3"></i>
               <span>CSS3</span>
             </div>
             <div>
-              <i class="bx bxl-javascript"></i>
+              <i className="bx bxl-javascript"></i>
               <span>JS</span>
             </div>
             <div>
-              <i class="bx bxl-jquery"></i>
+              <i className="bx bxl-jquery"></i>
               <span>jQuery</span>
             </div>
             <div>
-              <i class="bx bxl-spring-boot"></i>
+              <i className="bx bxl-spring-boot"></i>
               <span>SPRING</span>
             </div>
           </div>
           <p className={classes.github}>
-            <i class="bx bxl-github"></i>
+            <i className="bx bxl-github"></i>
             <span>
               <a href="https://github.com/kianpas">GO TO GITHUB</a>
             </span>
           </p>
           <p className={classes.github}>
-            <i class="bx bxs-note"></i>
+            <i className="bx bxs-note"></i>
             <span>
               <a href="https://wood-bird-d9d.notion.site/2593947faddd44588573e2d92e6f0262">
                 GO TO NOTION

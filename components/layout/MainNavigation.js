@@ -3,25 +3,14 @@ import { Fragment, useState } from "react";
 import classes from "./MainNavigation.module.css";
 
 const MainNavigation = (props) => {
-  const [sideMenu, setSideMenu] = useState(false);
 
-  const menuHandler = () => {
-    setSideMenu(true);
-
-    if (sideMenu) {
-      setSideMenu(false);
-    }
-  };
-
-  const backDropHandler = () => {
-    setSideMenu(false);
-  };
+ 
 
   return (
     <Fragment>
       <header
         className={
-          sideMenu ? `${classes.header} ${classes.toggle}` : `${classes.header}`
+          props.sideMenu ? `${classes.header} ${classes.toggle}` : `${classes.header}`
         }
       >
         <div className={classes.logo}>Reindeer</div>
@@ -47,11 +36,8 @@ const MainNavigation = (props) => {
             </li>
           </ul>
         </nav>
-        {!sideMenu && <i className="bx bx-menu" onClick={menuHandler}></i>}
       </header>
-      {sideMenu && (
-        <div className={classes.backdrop} onClick={backDropHandler}></div>
-      )}
+    
     </Fragment>
   );
 };

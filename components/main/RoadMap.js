@@ -1,7 +1,7 @@
 import Wrapper from "../ui/Wrapper";
 import classes from "./RoadMap.module.css";
 
-const RoadMap = (params) => {
+const RoadMap = () => {
   return (
     <Wrapper>
       <section className={classes.roadmap}>
