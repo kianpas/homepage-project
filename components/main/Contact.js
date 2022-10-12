@@ -12,7 +12,7 @@ const Contact = () => {
           </div>
           <div className={classes["contact-container"]}>
             <i className="bx bx-mobile"></i>
-            <span>PHONE : +82 010-5834-5237</span>
+            <span>PHONE : +82 000-0000-0000</span>
           </div>
         </article>
       </section>
